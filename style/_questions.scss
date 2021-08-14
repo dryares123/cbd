@@ -1,0 +1,57 @@
+.section-questions {
+    background-color: #f7f8f3;
+    overflow: hidden;
+}
+.container-accordion {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.accordion {
+    background-color: transparent;
+    color: #6e774a;
+    cursor: pointer;
+    padding: 18px;
+    width: 570px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-weight: 200;
+    transition: 0.4s;
+    border-top: 1px solid #eaedde;
+    border-bottom: 1px solid #eaedde;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: left;
+    margin-left: 5px;
+    padding-right: 25px;
+}
+
+.active:after {
+    content: "\2212";
+    padding-right: 25px;
+}
+
+.panel {
+    background-color: transparent;
+    text-align: left;
+    margin: 0 auto;
+    width: 570px;
+    padding: 0 45px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+}

@@ -1,0 +1,95 @@
+.section-about {
+    background-color: #f7f8f3;
+    overflow: hidden;
+    &__header {
+        padding: 40px 78px;
+        max-width: 665px;
+        margin: 100px auto;
+        text-align: center;
+        border: 10px solid #ced6af;
+    }
+    &__tabs {
+        margin-bottom: 150px;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    &__slider-header {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 150px;
+        font-size: 30px;
+        margin-bottom: 80px;
+    }
+}
+.about-header__title {
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.tab {
+    margin: 0 auto;
+    max-width: 970px;
+    overflow: hidden;
+    background-color: #f7f8f3;
+    border-bottom: 2px solid #ced6af;
+    margin-bottom: 80px;
+}
+.tablinks {
+    font-size: 30px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    background-color: #f7f8f3;
+    border-top: none;
+    margin: 0 auto;
+    max-width: 1200px;
+    &__text h3 {
+        font-size: 24px;
+        letter-spacing: 5px;
+    }
+    &__text p {
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 25px;
+    }
+    &__images {
+        display: flex;
+        float: right;
+        flex-direction: column;
+    }
+    &__img1 {
+        padding-bottom: 20px;
+    }
+}
+
+// .slick-prev:before, .slick-next:before {
+//     font-size: 70px;
+//     color: #6e774a;
+//     background: white;
+// }

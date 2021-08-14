@@ -1,0 +1,33 @@
+.section-testimonials {
+    background-image: url('../img/testominals-bg.png');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.testimonials-slider {
+    text-align: center;
+    &__container {
+        padding-top: 265px;
+        margin-bottom: 320px;
+    }
+    &__stars {
+        margin-bottom: 40px;
+    }
+    &__text {
+        color: white;
+        font-size: 22px;
+        letter-spacing: 5px;
+        font-weight: 300;
+    }
+    &__author {
+        color: white;
+        letter-spacing: 5px;
+        font-size: 24px;
+    }
+}
+
+.fa-star {
+    color: #aab384;
+}
