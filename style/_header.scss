@@ -1,0 +1,95 @@
+.header-section {
+    background-image: url('../img/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    &__h2 {
+        color: white;
+        font-size: 30px;
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+    &__nav {
+        padding-left: 60px;
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+    &__navigation:hover
+    {
+        text-decoration: overline;
+        color: green;
+    }
+
+    &__navigation {
+        margin-right: 45px;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    &__options {
+        padding-left: 60px;
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+    &__functional:hover {
+        text-decoration: overline;
+        color: green;
+    }
+    &__functional {
+        margin-right: 45px;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    &__body-container {
+        max-width: 1170px;
+        text-align: right;
+    }
+    &__title {
+        color: white;
+        font-size: 35px;
+        line-height: 55px;
+        letter-spacing: 25px;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        font-size: 24px;
+        font-weight: 200;
+        color: #f7f8f3;
+        letter-spacing: 10px;
+        margin-bottom: 59px;
+    }
+    &__body-btn {
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 30px 40px;
+        margin-bottom: 35px;
+    }
+    &__body-btn:hover {
+        background-color: black;
+        transition: 0.3s;
+        transform: skewX(30deg);
+    }
+    &__adds {
+        color: white;
+        font-size: 18px;
+        font-weight: 200;
+        letter-spacing: 5px;
+        padding-bottom: 333px;
+        margin: 0;
+    }
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-bottom: 310px;
+}
