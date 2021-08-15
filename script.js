@@ -81,3 +81,14 @@ const Counter = {
 }
 
 Vue.createApp(Counter).mount('#counter');
+
+$('#products-see').on('click', function () {
+    // document.querySelector('#openModal');
+    $('#openModal').addClass('show');
+    document.body.style.overflow = 'hidden';
+});
+
+document.querySelector('[href="#close"]').addEventListener('click',function(){
+    document.body.style.overflow = 'visible';
+    $('#openModal').removeClass('show');
+});

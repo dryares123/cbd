@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -54,7 +51,7 @@
         </h2>
         <p class="header-section__subtitle">Choose Wisely. Choose CBD.</p>
         <button class="header-section__body-btn">Start shopping &#8594;</button>
-        <p class="header-section__adds">See all products &#8594; </p>
+        <p id="products-see" class="header-section__adds">See all products &#8594; </p>
     </div>
     </section>
 
@@ -374,6 +371,21 @@
         </div>
     </div>
     </section>
+</div>
+
+<div id="openModal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title">Add products</h3>
+            <a href="#close" title="Close" class="close">×</a>
+        </div>
+        <div class="modal-body">    
+            <p>LSD</p>
+            <img src="./img/lsd.jpg" alt="">
+        </div>
+        </div>
+    </div>
 </div>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
